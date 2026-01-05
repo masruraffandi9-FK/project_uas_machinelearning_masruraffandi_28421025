@@ -23,11 +23,12 @@ function sendMessage() {
 
   typing.style.display = "block";
 
-  fetch("/", {
-    method: "POST",
-    headers: {"Content-Type": "application/json"},
-    body: JSON.stringify({ message })
-  })
+  fetch("/chat", {
+  method: "POST",
+  headers: {"Content-Type": "application/json"},
+  body: JSON.stringify({ message })
+})
+
   .then(res => res.json())
   .then(data => {
     typing.style.display = "none";

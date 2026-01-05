@@ -9,7 +9,7 @@ app = Flask(__name__)
 # load model
 model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
-data = json.load(open("intents.json"))
+data = json.load(open("data/intents.json"))
 
 def chatbot_response(text):
     X_test = vectorizer.transform([text.lower()])

@@ -1,0 +1,246 @@
+{
+  "intents": [
+
+    {
+      "tag": "salam",
+      "patterns": [
+        "halo",
+        "hai",
+        "hello",
+        "selamat pagi",
+        "selamat siang",
+        "selamat malam"
+      ],
+      "responses": [
+        "Halo! Saya chatbot informasi umum seputar teknologi berbasis machine learning. Silakan bertanya jika ingin mengetahui tentang machine learning, artificial intelligence, deep learning, atau chatbot."
+      ]
+    },
+
+    {
+      "tag": "perkenalan",
+      "patterns": [
+        "siapa kamu",
+        "kamu siapa",
+        "jelaskan tentang kamu"
+      ],
+      "responses": [
+        "Saya adalah chatbot informasi umum yang dirancang untuk menjawab pertanyaan seputar teknologi menggunakan pendekatan machine learning."
+      ]
+    },
+
+    {
+  "tag": "definisi_ml",
+  "patterns": [
+    "apa itu machine learning",
+    "pengertian machine learning",
+    "jelaskan machine learning",
+    "arti machine learning"
+  ],
+  "responses": [
+    "Machine Learning adalah cabang kecerdasan buatan yang memungkinkan komputer belajar dari data dan meningkatkan kinerjanya tanpa diprogram secara eksplisit."
+  ]
+},
+{
+  "tag": "fungsi_ml",
+  "patterns": [
+    "fungsi machine learning",
+    "manfaat machine learning",
+    "kegunaan machine learning",
+    "tujuan machine learning"
+  ],
+  "responses": [
+    "Machine Learning berfungsi untuk melakukan prediksi, klasifikasi, pengelompokan data, dan rekomendasi berdasarkan pola dari data."
+  ]
+},
+{
+  "tag": "cara_kerja_ml",
+  "patterns": [
+    "cara kerja machine learning",
+    "bagaimana machine learning bekerja",
+    "proses machine learning"
+  ],
+  "responses": [
+    "Machine Learning bekerja dengan cara mempelajari data latih, membangun model, lalu menggunakan model tersebut untuk membuat prediksi atau keputusan."
+  ]
+},
+{
+  "tag": "jenis_ml",
+  "patterns": [
+    "jenis machine learning",
+    "macam machine learning",
+    "tipe machine learning"
+  ],
+  "responses": [
+    "Jenis utama Machine Learning terdiri dari supervised learning, unsupervised learning, dan reinforcement learning."
+  ]
+},
+
+    {
+      "tag": "definisi_ai",
+      "patterns": [
+        "apa itu ai",
+        "pengertian artificial intelligence",
+        "jelaskan ai",
+        "arti ai"
+      ],
+      "responses": [
+        "Artificial Intelligence atau AI adalah teknologi yang memungkinkan komputer meniru kemampuan berpikir dan bertindak seperti manusia.\n\nJika kamu ingin tahu lebih lanjut, saya bisa menjelaskan fungsi AI, cara kerjanya, atau hubungannya dengan machine learning."
+      ]
+    },
+
+    {
+      "tag": "fungsi_ai",
+      "patterns": [
+        "fungsi ai",
+        "manfaat ai",
+        "kegunaan artificial intelligence"
+      ],
+      "responses": [
+        "AI digunakan untuk otomatisasi proses, analisis data, pengambilan keputusan, serta pengenalan suara dan gambar.\n\nKamu juga bisa bertanya tentang cara kerja AI."
+      ]
+    },
+
+    {
+  "tag": "definisi_ai",
+  "patterns": [
+    "apa itu ai",
+    "pengertian artificial intelligence",
+    "jelaskan ai",
+    "arti artificial intelligence"
+  ],
+  "responses": [
+    "Artificial Intelligence adalah bidang ilmu komputer yang bertujuan menciptakan sistem yang dapat meniru kecerdasan manusia."
+  ]
+},
+{
+  "tag": "fungsi_ai",
+  "patterns": [
+    "fungsi ai",
+    "manfaat ai",
+    "kegunaan artificial intelligence",
+    "tujuan ai"
+  ],
+  "responses": [
+    "AI berfungsi untuk mengotomatisasi proses, membantu pengambilan keputusan, serta memproses data dalam skala besar."
+  ]
+},
+{
+  "tag": "cara_kerja_ai",
+  "patterns": [
+    "cara kerja ai",
+    "bagaimana ai bekerja",
+    "proses artificial intelligence",
+    "cara kerja sistem ai",
+    "bagaimana kecerdasan buatan bekerja",
+    "mekanisme kerja ai"
+  ],
+  "responses": [
+    "AI bekerja dengan memproses data menggunakan algoritma dan aturan tertentu untuk meniru cara berpikir manusia dalam mengambil keputusan."
+  ]
+},
+
+    {
+  "tag": "definisi_dl",
+  "patterns": [
+    "apa itu deep learning",
+    "pengertian deep learning",
+    "jelaskan deep learning"
+  ],
+  "responses": [
+    "Deep Learning adalah bagian dari Machine Learning yang menggunakan jaringan saraf tiruan berlapis untuk memproses data kompleks."
+  ]
+},
+{
+  "tag": "fungsi_dl",
+  "patterns": [
+    "fungsi deep learning",
+    "manfaat deep learning",
+    "kegunaan deep learning"
+  ],
+  "responses": [
+    "Deep Learning digunakan untuk pengenalan wajah, pengenalan suara, pemrosesan citra, dan pemrosesan bahasa alami."
+  ]
+},
+{
+  "tag": "cara_kerja_dl",
+  "patterns": [
+    "cara kerja deep learning",
+    "bagaimana deep learning bekerja",
+    "proses deep learning"
+  ],
+  "responses": [
+    "Deep Learning bekerja dengan memproses data melalui beberapa lapisan neural network untuk mengekstraksi fitur secara otomatis."
+  ]
+},
+
+    {
+  "tag": "definisi_chatbot",
+  "patterns": [
+    "apa itu chatbot",
+    "pengertian chatbot",
+    "jelaskan chatbot"
+  ],
+  "responses": [
+    "Chatbot adalah program komputer yang dirancang untuk berinteraksi dengan pengguna menggunakan bahasa alami."
+  ]
+},
+{
+  "tag": "fungsi_chatbot",
+  "patterns": [
+    "fungsi chatbot",
+    "manfaat chatbot",
+    "kegunaan chatbot"
+  ],
+  "responses": [
+    "Chatbot berfungsi untuk memberikan respon otomatis, membantu layanan pelanggan, dan menyediakan informasi secara cepat."
+  ]
+},
+{
+  "tag": "cara_kerja_chatbot",
+  "patterns": [
+    "cara kerja chatbot",
+    "bagaimana chatbot bekerja",
+    "proses chatbot"
+  ],
+  "responses": [
+    "Chatbot bekerja dengan mengolah input pengguna, mengklasifikasikan intent menggunakan machine learning, lalu menghasilkan respon yang sesuai."
+  ]
+},
+
+    {
+      "tag": "terima_kasih",
+      "patterns": [
+        "terima kasih",
+        "makasih",
+        "thanks"
+      ],
+      "responses": [
+        "Sama-sama. Senang bisa membantu. Jika ingin mengetahui topik teknologi lainnya, silakan bertanya."
+      ]
+    },
+
+    {
+      "tag": "keluar",
+      "patterns": [
+        "bye",
+        "keluar",
+        "sampai jumpa"
+      ],
+      "responses": [
+        "Terima kasih telah menggunakan chatbot. Sampai jumpa."
+      ]
+    },
+
+    {
+  "tag": "fallback",
+  "patterns": [],
+  "responses": [
+    "Maaf, saya belum memahami pertanyaan tersebut.",
+    "Maaf, saya tidak mengerti maksud pertanyaan kamu.",
+    "Pertanyaan tersebut belum bisa saya jawab."
+  ]
+}
+
+
+  ]
+}

@@ -1,13 +1,11 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify
 import pickle
 import json
 import random
 import numpy as np
-import os
 
-app = Flask(__name__, static_folder="../public", static_url_path="")
+app = Flask(__name__)
 
-# load model
 model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 data = json.load(open("data/intents.json"))
@@ -27,13 +25,7 @@ def chatbot_response(text):
 
     return "Maaf, saya belum memahami pertanyaan tersebut."
 
-# ✅ GET → tampilkan HTML
-@app.route("/", methods=["GET"])
-def index():
-    return send_from_directory(app.static_folder, "index.html")
-
-# ✅ POST → chatbot API
-@app.route("/chat", methods=["POST"])
+@app.route("/api/chat", methods=["POST"])
 def chat():
     user_input = request.json.get("message", "")
     response = chatbot_response(user_input)
